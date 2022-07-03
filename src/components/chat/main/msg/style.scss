@@ -1,0 +1,36 @@
+.msgWrapper {
+  // flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  margin: 10px 20px;
+  // overflow: hidden;
+  .none {
+    clip-path: polygon(50% 0%, 100% 21%, 100% 0);
+    background-color: #fff;
+    height: 100%;
+    width: 10px;
+  }
+  .msgContainer {
+    background-color: #fff;
+    border-radius: 0 5px 5px 5px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .msg {
+      padding: 0.5rem;
+      color: #111b21;
+    }
+    .sendingDate {
+      width: 100%;
+      text-align: right;
+      padding: 0 0.5rem 0.5rem 0;
+      font-size: 11px;
+      color: #667781;
+    }
+  }
+}

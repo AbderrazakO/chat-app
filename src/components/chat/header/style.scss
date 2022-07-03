@@ -1,0 +1,25 @@
+.contactDetails {
+  background-color: #f0f2f5;
+  height: 60px;
+  min-height: 60px;
+  padding-inline: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+
+  .contactImg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .contactName {
+    font-size: 1.1rem;
+  }
+}
