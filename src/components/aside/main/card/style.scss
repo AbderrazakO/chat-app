@@ -1,0 +1,54 @@
+.contactCard {
+  width: 100%;
+  height: max-content;
+  background-color: var(--color-bg-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #f0f2f5;
+  }
+  .contactImage {
+    margin-inline: 0.75rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .chatInfo {
+    flex-grow: 1;
+    border-top: 1px solid #e9edef;
+    padding: 0.85rem 0.75rem 0.85rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // gap: px;
+    .infoRow {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .contactName {
+        font-size: 1.1rem;
+        color: #222;
+      }
+      .lastMsgDate {
+        font-size: 0.75rem;
+        color: #667781;
+      }
+      .lastMsg {
+        font-size: 0.9rem;
+        color: #667781;
+      }
+    }
+  }
+}

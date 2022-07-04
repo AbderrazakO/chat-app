@@ -1,9 +1,9 @@
 import React from 'react'
-import { MenuIcon } from './icon'
+import { MenuIcon } from '../../../../assets/icons'
 
 const MenuBtn = () => {
   return (
-    <button className='headerBtn'>
+    <button aria-label='show menu' className='headerBtn'>
       <MenuIcon />
     </button>
   )

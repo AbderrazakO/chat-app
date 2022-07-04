@@ -1,0 +1,31 @@
+.stickContainer {
+  // width: 30px;
+  // width: max-content;
+  height: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  transition: all 0.2s ease;
+  // background-color: salmon;
+
+  .pickBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: grid;
+    place-items: center;
+    z-index: 99;
+    svg {
+      width: 27px;
+      height: 27px;
+      fill: #54656f;
+    }
+  }
+}

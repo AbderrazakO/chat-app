@@ -1,0 +1,55 @@
+@keyframes showBtn {
+  from {
+    transform: translateY(100%) scaleX(0) scaleY(0);
+  }
+  to {
+    transform: translateY(0%) scaleX(1) scaleY(1);
+  }
+}
+
+//
+.attachAria {
+  position: relative;
+  .mainBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    svg {
+      width: 25px;
+      height: 25px;
+      fill: #54656f;
+    }
+  }
+
+  .dropDown {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: -250px;
+    left: -5px;
+
+    .attachBtn {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      animation: showBtn 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

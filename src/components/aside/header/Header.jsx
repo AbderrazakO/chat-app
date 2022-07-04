@@ -2,13 +2,13 @@ import React from 'react'
 import DarkBtn from './darkBtn/DarkBtn'
 import MenuBtn from './menuBtn/MenuBtn'
 import NewChatBtn from './newChatBtn/NewChatBtn'
-import { UserIcon } from './icons'
+import { UserIcon } from '../../../assets/icons'
 import './style.scss'
 
 const Header = () => {
   return (
     <header className='asideHeader'>
-      <button className='userImage'>
+      <button aria-label='go to profile' className='userImage'>
         <UserIcon />
       </button>
       <nav>

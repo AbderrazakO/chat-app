@@ -4,4 +4,8 @@
   border-radius: 5px;
   padding: 0.5rem 0.75rem;
   font-size: 0.95rem;
+  background-color: #fff;
+  &::placeholder {
+    color: #8696a0;
+  }
 }

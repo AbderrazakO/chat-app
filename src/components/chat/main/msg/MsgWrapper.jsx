@@ -2,7 +2,6 @@ import React from 'react'
 import './style.scss'
 
 const MsgWrapper = ({ userSending = false }) => {
-  console.log(userSending)
   return (
     <div
       className='msgWrapper'

@@ -1,9 +1,9 @@
 import React from 'react'
-import { NewChatIcon } from './icon'
+import { NewChatIcon } from '../../../../assets/icons'
 
 const NewChatBtn = () => {
   return (
-    <button className='headerBtn'>
+    <button aria-label='start new chat' className='headerBtn'>
       <NewChatIcon />
     </button>
   )

@@ -1,9 +1,9 @@
 import React from 'react'
-import { MicICon } from './icons'
+import { MicICon } from '../../../../assets/icons'
 
 const MicBtn = () => {
   return (
-    <button>
+    <button aria-label='start recording'>
       <MicICon />
     </button>
   )

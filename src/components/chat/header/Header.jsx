@@ -1,5 +1,5 @@
 import React from 'react'
-import { UserIcon } from './icons'
+import { UserIcon } from '../../../assets/icons'
 import './style.scss'
 
 const ContactDetails = () => {
